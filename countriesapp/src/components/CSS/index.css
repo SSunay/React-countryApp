@@ -1,0 +1,56 @@
+.backBtn {
+  padding: 5px 10px;
+  margin: 30px 0px;
+  background-color: transparent;
+  border-radius: 3px;
+}
+.backBtn i {
+  margin-right: 6px;
+}
+
+.cardInfo {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardInfo img {
+  width: 560px;
+  height: 420px;
+  border-radius: 5px;
+}
+.cardInfo h2 {
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+}
+.cardInfo .infoFooter {
+  display: flex;
+  position: relative;
+  top: 170px;
+  right: 300px;
+}
+.cardInfo .infoFooter span {
+  font-weight: 700;
+}
+.cardInfo .infoFooter button {
+  margin: 5px;
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+
+.info {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  justify-content: space;
+}
+.info .left .name {
+  font-weight: 700;
+}
+.info .right .name {
+  font-weight: 700;
+}
